@@ -4,7 +4,7 @@
 
 kali_exploit_tools/
 ├── exploits/
-│   ├── beef.py                # BeEF-like exploitation functionalities
+│   ├── beef.py                # BeEF-like exploitation functionalities 
 │   ├── nmap_scan.py           # Nmap scanning functionalities
 │   ├── sqlmap_wrapper.py      # SQLMap integration and automation
 ├── core/                      
