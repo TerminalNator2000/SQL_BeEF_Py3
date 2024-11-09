@@ -1,0 +1,11 @@
+nmap:
+  targets: ["192.168.1.1", "192.168.1.2"]
+  scan_type: "-sS -Pn"
+
+beef:
+  target_url: "http://example.com"
+  payload: "alert('BeEF attack')"
+
+sqlmap:
+  target_url: "http://example.com/vulnerable"
+  options: "--batch --dbs"
